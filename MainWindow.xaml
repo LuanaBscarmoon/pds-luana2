@@ -1,22 +1,12 @@
-﻿<Window x:Class="Atividade1.MainWindow"
+﻿<Window x:Class="EscolaSistema.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Atividade1"
+        xmlns:local="clr-namespace:EscolaSistema"
         mc:Ignorable="d"
-        Title="Tela de Login" Height="414" Width="528" ResizeMode="NoResize" WindowStartupLocation="CenterScreen"
-        WindowStyle="None">
-
-    <Grid Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
-        <TextBox x:Name="txtUsuario" HorizontalAlignment="Center" Margin="0,185,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" Height="26" Padding="5"/>
-        <Label Content="Login" HorizontalAlignment="Left" Margin="111,145,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14"/>
-        <Label Content="Senha" HorizontalAlignment="Left" Margin="110,219,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" RenderTransformOrigin="0.538,-0.767"/>
-        <PasswordBox x:Name="passBoxSenha" HorizontalAlignment="Center" VerticalAlignment="Top" Width="306" Height="29" Margin="0,248,0,0" Padding="5" KeyDown="passBoxSenha_KeyDown_1"/>
-        <Button x:Name="buttonCadastrar" Content="Cadastrar-se" HorizontalAlignment="Left" Margin="111,306,0,0" VerticalAlignment="Top" Height="34" Width="98" RenderTransformOrigin="0.556,-0.374" BorderBrush="#FF171212" Background="#FFFBFBFB" Click="buttonCadastrar_Click"/>
-        <Image HorizontalAlignment="Center" Height="100" Margin="0,39,0,0" VerticalAlignment="Top" Width="100" Source="/imagens/17115r.png"/>
-        <Button x:Name="buttonfechar" Content="X" HorizontalAlignment="Left" Margin="487,10,0,0" VerticalAlignment="Top" Click="Button_Click" Height="27" Width="31" RenderTransformOrigin="2.599,-2.112"/>
-        <Button x:Name="btEntrar" Content="Entrar" HorizontalAlignment="Left" Margin="319,306,0,0" VerticalAlignment="Top" Height="34" Width="97" RenderTransformOrigin="0.556,-0.374" BorderBrush="#FF171212" Background="#FFFBFBFB" Click="btEntrar_Click"/>
-
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        
     </Grid>
 </Window>

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Atividade1.Properties
+namespace EscolaSistema.Properties
 {
 
 
